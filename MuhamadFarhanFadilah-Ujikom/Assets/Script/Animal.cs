@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Animal : MonoBehaviour
 {
-   /* [SerializeField]
+    [SerializeField]
     public GameObject animal;
     public float timemax, timemin;
     public float posisimax, posisimin;
@@ -12,7 +12,7 @@ public class Animal : MonoBehaviour
     // Start is called before the first frame update
 
 
-   
+
     void Start()
     {
         StartCoroutine(SpawnAnimal());
@@ -27,11 +27,11 @@ public class Animal : MonoBehaviour
 
     IEnumerator SpawnAnimal()
     {
-        Instantiate(animal, transform.position + Vector3.right * Random.Range(posisimin,posisimax), Quaternion.identity);
-        yield return new WaitForSeconds(Random.Range(timemin,timemax));
+        Instantiate(animal, transform.position + Vector3.right * Random.Range(posisimin, posisimax), Quaternion.identity);
+        yield return new WaitForSeconds(Random.Range(timemin, timemax));
         StartCoroutine(SpawnAnimal());
 
-    }*/
+    }
 
 
 }

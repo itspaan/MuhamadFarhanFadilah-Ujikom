@@ -16,7 +16,7 @@ public class Pizza : MonoBehaviour
     }
 
 
-   /* private void OnTriggerEnter(Collider other)
+    /*private void OnTriggerEnter(Collider other)
     {
         Animal animal = other.GetComponent<Animal>();
         if (animal != null)
