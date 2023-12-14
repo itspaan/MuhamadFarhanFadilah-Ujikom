@@ -356,6 +356,7 @@
 -analyzer:"E:/UNITY/2022.3.7f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"E:/UNITY/2022.3.7f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Script/Animal.cs"
+"Assets/Script/Pause.cs"
 "Assets/Script/PindahScene.cs"
 "Assets/Script/Pizza.cs"
 "Assets/Script/PlayerController.cs"
